@@ -1,0 +1,30 @@
+.nav-link{
+    color: gray !important;
+    transition: 1s all;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: white !important;
+}
+.banner{
+    background: url(./imgs/img2.jpeg) no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: darkcyan;
+}
+.circle{
+    background-color: #dc3545;
+    height: 140px;
+    width: 140px;
+    display: inline-block;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+}
+.circle i{
+    position: relative;
+    top: 25px;
+}
